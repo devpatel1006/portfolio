@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <div className="bg-gray-900 text-gray-100 min-h-screen">
+    <div className="bg-gray-900 text-gray-100 min-h-screen overflow-x-hidden">
       <Navbar />
 
       <motion.main
