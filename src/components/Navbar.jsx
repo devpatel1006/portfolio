@@ -74,9 +74,9 @@ export default function Navbar() {
                         >
                             <div className="px-8 py-6 space-y-6">
                                 {navItems.map((item) => (
-                                    <Link
+                                    <a
                                         key={item.to}
-                                        to={item.to}
+                                        href={item.to}
                                         smooth={true}
                                         offset={-100}
                                         onClick={() => setIsOpen(false)}
@@ -88,7 +88,7 @@ export default function Navbar() {
                                         >
                                             {item.name}
                                         </motion.div>
-                                    </Link>
+                                    </a>
                                 ))}
                             </div>
                         </motion.div>
