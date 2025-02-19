@@ -31,7 +31,7 @@ export default function Hero() {
     }, [])
 
     return (
-        <section ref={comp} className="min-h-screen flex items-center justify-center px-8">
+        <section ref={comp} className="min-h-screen flex items-center justify-center px-8" id="hero">
             <div className="max-w-6xl mx-auto">
                 <div className="flex flex-col md:flex-row items-center gap-12">
                     <motion.div
